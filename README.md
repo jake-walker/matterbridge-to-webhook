@@ -17,6 +17,7 @@ The program is configured using the following environment variables:
 | `MATTERBRIDGE_API_PASSWORD` | _(none)_ | The password for basic authentication to the matterbridge API. Defaults to no authentication. |
 | `WEBHOOK_URL` | _(none, required)_ | The webhook where messages are POSTed to. |
 | `MESSAGE_PREFIX` | _(none)_ | Messages without this prefix are ignored. Defaults to accepting all messages. |
+| `ENABLE_TELEMETRY` | _(none)_ | When set to `yes`, the OpenTelemetry SDK will be set up. |
 
 ### Running
 

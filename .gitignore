@@ -90,3 +90,4 @@ Temporary Items
 .ionide
 
 .env
+*.env
